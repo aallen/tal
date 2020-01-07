@@ -28,7 +28,7 @@ function getEpisodes() {
             number: parseInt(el.find('.field-name-field-episode-number').text()),
             date: pubDate(new Date(el.find('.date-display-single').text() + ' 12:00:00')),
             title: el.find('header h2 a.goto').text(),
-            link: 'https://www.thisamericanlife.org/' + el.find('header h2 a.goto').attr('href'),
+            link: 'https://www.thisamericanlife.org' + el.find('header h2 a.goto').attr('href'),
             description: el.find('.content .field-name-body').text().trim()
         });
     });
