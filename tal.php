@@ -31,6 +31,9 @@
 <?php
     $episodes = json_decode( $jsonFile, true );
     foreach($episodes  as $episode) {
+        $leading = $episode['number'] < 100 ?
+            substr(str_pad($episode['number'], 5, '0', STR_PAD_LEFT), -3):
+            $episode['number'];
 ?>
         <item>
             <title><![CDATA[<?php echo $episode['number'].': '.$episode['title']?>]]></title>
@@ -38,9 +41,9 @@
             <description><![CDATA[<?php echo $episode['description']?>]]></description>
             <pubDate><?php echo $episode['date']?></pubDate>
             <guid isPermaLink="false"><?php echo $episode['number']?></guid>
-            <enclosure url="<?php echo 'http://assets.thisamericanlife.co/podcasts/' . $episode['number'] . '.mp3' ?>" type="audio/mpeg" />
+            <enclosure url="<?php echo 'http://assets.thisamericanlife.co/podcasts/' . $leading . '.mp3' ?>" type="audio/mpeg" />
             <itunes:author><![CDATA[This American Life]]></itunes:author>
-            <itunes:image href="<?php echo 'http://assets.thisamericanlife.co/images/' . $episode['number'] . '.jpg' ?>" />
+            <itunes:image href="<?php echo 'http://assets.thisamericanlife.co/images/' . $leading . '.jpg' ?>" />
             <itunes:subtitle><![CDATA[<?php echo $episode['description']?>]]></itunes:subtitle>
             <itunes:summary><![CDATA[<?php echo $episode['description']?>]]></itunes:summary>
         </item>
