@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:anchor="https://anchor.fm/xmlns">
-	<channel>
-		<title>This American Life</title>
+    <channel>
+        <title>This American Life</title>
         <description>This American Life is a weekly public radio show, heard by 2.2 million people on more than 500 stations. Another 2.5 million people download the weekly podcast. It is hosted by Ira Glass, produced in collaboration with Chicago Public Media, delivered to stations by PRX The Public Radio Exchange, and has won all of the major broadcasting awards.</description>
         <language>en</language>
         <copyright>Copyright 1995-2020 This American Life</copyright>
@@ -11,6 +11,18 @@
         <itunes:category text="Arts" />
         <itunes:category text="News"> <itunes:category text="Politics" /></itunes:category>
         <itunes:image href="https://files.thisamericanlife.org/sites/all/themes/thislife/img/tal-name-1400x1400.png" />
+        <item>
+            <title><![CDATA[691: Gardens of Branching Paths]]></title>
+            <link>http://feed.thisamericanlife.org/~r/talpodcast/~3/dxGj3-OhmY4/gardens-of-branching-paths</link>
+            <description><![CDATA[Stories of other universes that are just like our own, but with one small difference.]]></description>
+            <pubDate>Sun, 12 Jan 2020 18:00:00 -0500</pubDate>
+            <guid isPermaLink="false">691</guid>
+            <enclosure url="http://assets.thisamericanlife.co/podcasts/691.mp3" type="audio/mpeg" />
+            <itunes:author><![CDATA[This American Life]]></itunes:author>
+            <itunes:image href="http://assets.thisamericanlife.co/images/691.jpg" />
+            <itunes:subtitle><![CDATA[Stories of other universes that are just like our own, but with one small difference.]]></itunes:subtitle>
+            <itunes:summary><![CDATA[Stories of other universes that are just like our own, but with one small difference.]]></itunes:summary>
+        </item>
         <item>
             <title><![CDATA[690: Too Close to Home]]></title>
             <link>https://www.thisamericanlife.org/690/too-close-to-home</link>
@@ -122,26 +134,26 @@
         <item>
             <title><![CDATA[681: Escape From the Lab]]></title>
             <link>https://www.thisamericanlife.org/681/escape-from-the-lab</link>
-            <description><![CDATA[What happens when our most ingenious creations actually make it out into the world.]]></description>
+            <description><![CDATA[What happens when our most ingenious creations actually make it out into the world.]]></description>
             <pubDate>Fri, 16 Aug 2019 12:00:00 -0400</pubDate>
             <guid isPermaLink="false">681</guid>
             <enclosure url="http://assets.thisamericanlife.co/podcasts/681.mp3" type="audio/mpeg" />
             <itunes:author><![CDATA[This American Life]]></itunes:author>
             <itunes:image href="http://assets.thisamericanlife.co/images/681.jpg" />
-            <itunes:subtitle><![CDATA[What happens when our most ingenious creations actually make it out into the world.]]></itunes:subtitle>
-            <itunes:summary><![CDATA[What happens when our most ingenious creations actually make it out into the world.]]></itunes:summary>
+            <itunes:subtitle><![CDATA[What happens when our most ingenious creations actually make it out into the world.]]></itunes:subtitle>
+            <itunes:summary><![CDATA[What happens when our most ingenious creations actually make it out into the world.]]></itunes:summary>
         </item>
         <item>
             <title><![CDATA[680: The Weight Of Words]]></title>
             <link>https://www.thisamericanlife.org/680/the-weight-of-words</link>
-            <description><![CDATA[Words mean things, but some words are especially meaningful — whether in a survival manual, a song lyric, or a slur.]]></description>
+            <description><![CDATA[Words mean things, but some words are especially meaningful — whether in a survival manual, a song lyric, or a slur.]]></description>
             <pubDate>Fri, 26 Jul 2019 12:00:00 -0400</pubDate>
             <guid isPermaLink="false">680</guid>
             <enclosure url="http://assets.thisamericanlife.co/podcasts/680.mp3" type="audio/mpeg" />
             <itunes:author><![CDATA[This American Life]]></itunes:author>
             <itunes:image href="http://assets.thisamericanlife.co/images/680.jpg" />
-            <itunes:subtitle><![CDATA[Words mean things, but some words are especially meaningful — whether in a survival manual, a song lyric, or a slur.]]></itunes:subtitle>
-            <itunes:summary><![CDATA[Words mean things, but some words are especially meaningful — whether in a survival manual, a song lyric, or a slur.]]></itunes:summary>
+            <itunes:subtitle><![CDATA[Words mean things, but some words are especially meaningful — whether in a survival manual, a song lyric, or a slur.]]></itunes:subtitle>
+            <itunes:summary><![CDATA[Words mean things, but some words are especially meaningful — whether in a survival manual, a song lyric, or a slur.]]></itunes:summary>
         </item>
         <item>
             <title><![CDATA[679: Save the Girl]]></title>
@@ -386,26 +398,26 @@
         <item>
             <title><![CDATA[659: Before the Next One]]></title>
             <link>https://www.thisamericanlife.org/659/before-the-next-one</link>
-            <description><![CDATA[People taking what they’ve learned from school shootings and try to use that knowledge to save others.]]></description>
+            <description><![CDATA[People taking what they’ve learned from school shootings and try to use that knowledge to save others.]]></description>
             <pubDate>Fri, 12 Oct 2018 12:00:00 -0400</pubDate>
             <guid isPermaLink="false">659</guid>
             <enclosure url="http://assets.thisamericanlife.co/podcasts/659.mp3" type="audio/mpeg" />
             <itunes:author><![CDATA[This American Life]]></itunes:author>
             <itunes:image href="http://assets.thisamericanlife.co/images/659.jpg" />
-            <itunes:subtitle><![CDATA[People taking what they’ve learned from school shootings and try to use that knowledge to save others.]]></itunes:subtitle>
-            <itunes:summary><![CDATA[People taking what they’ve learned from school shootings and try to use that knowledge to save others.]]></itunes:summary>
+            <itunes:subtitle><![CDATA[People taking what they’ve learned from school shootings and try to use that knowledge to save others.]]></itunes:subtitle>
+            <itunes:summary><![CDATA[People taking what they’ve learned from school shootings and try to use that knowledge to save others.]]></itunes:summary>
         </item>
         <item>
             <title><![CDATA[658: The Unhappy Deciders]]></title>
             <link>https://www.thisamericanlife.org/658/the-unhappy-deciders</link>
-            <description><![CDATA[Zoe Chace followed Senator Jeff Flake as he decided to force the Senate to delay its vote on Judge Kavanaugh.]]></description>
+            <description><![CDATA[Zoe Chace followed Senator Jeff Flake as he decided to force the Senate to delay its vote on Judge Kavanaugh.]]></description>
             <pubDate>Fri, 05 Oct 2018 12:00:00 -0400</pubDate>
             <guid isPermaLink="false">658</guid>
             <enclosure url="http://assets.thisamericanlife.co/podcasts/658.mp3" type="audio/mpeg" />
             <itunes:author><![CDATA[This American Life]]></itunes:author>
             <itunes:image href="http://assets.thisamericanlife.co/images/658.jpg" />
-            <itunes:subtitle><![CDATA[Zoe Chace followed Senator Jeff Flake as he decided to force the Senate to delay its vote on Judge Kavanaugh.]]></itunes:subtitle>
-            <itunes:summary><![CDATA[Zoe Chace followed Senator Jeff Flake as he decided to force the Senate to delay its vote on Judge Kavanaugh.]]></itunes:summary>
+            <itunes:subtitle><![CDATA[Zoe Chace followed Senator Jeff Flake as he decided to force the Senate to delay its vote on Judge Kavanaugh.]]></itunes:subtitle>
+            <itunes:summary><![CDATA[Zoe Chace followed Senator Jeff Flake as he decided to force the Senate to delay its vote on Judge Kavanaugh.]]></itunes:summary>
         </item>
         <item>
             <title><![CDATA[657: The Runaways]]></title>
@@ -1382,14 +1394,14 @@
         <item>
             <title><![CDATA[576: Say Yes To Christmas]]></title>
             <link>https://www.thisamericanlife.org/576/say-yes-to-christmas</link>
-            <description><![CDATA[We go all in and bring the joy, the spontaneity, the sense that anything can happen back to Christmas.]]></description>
+            <description><![CDATA[We go all in and bring the joy, the spontaneity, the sense that anything can happen back to Christmas.]]></description>
             <pubDate>Fri, 25 Dec 2015 12:00:00 -0500</pubDate>
             <guid isPermaLink="false">576</guid>
             <enclosure url="http://assets.thisamericanlife.co/podcasts/576.mp3" type="audio/mpeg" />
             <itunes:author><![CDATA[This American Life]]></itunes:author>
             <itunes:image href="http://assets.thisamericanlife.co/images/576.jpg" />
-            <itunes:subtitle><![CDATA[We go all in and bring the joy, the spontaneity, the sense that anything can happen back to Christmas.]]></itunes:subtitle>
-            <itunes:summary><![CDATA[We go all in and bring the joy, the spontaneity, the sense that anything can happen back to Christmas.]]></itunes:summary>
+            <itunes:subtitle><![CDATA[We go all in and bring the joy, the spontaneity, the sense that anything can happen back to Christmas.]]></itunes:subtitle>
+            <itunes:summary><![CDATA[We go all in and bring the joy, the spontaneity, the sense that anything can happen back to Christmas.]]></itunes:summary>
         </item>
         <item>
             <title><![CDATA[575: Poetry of Propaganda]]></title>
@@ -4421,14 +4433,14 @@ town.]]></itunes:summary>
         <item>
             <title><![CDATA[323: The Super]]></title>
             <link>https://www.thisamericanlife.org/323/the-super</link>
-            <description><![CDATA[Stories of the mysterious hold supers have on their buildings, or their buildings have on them.]]></description>
+            <description><![CDATA[Stories of the mysterious hold supers have on their buildings, or their buildings have on them.]]></description>
             <pubDate>Fri, 05 Jan 2007 12:00:00 -0500</pubDate>
             <guid isPermaLink="false">323</guid>
             <enclosure url="http://assets.thisamericanlife.co/podcasts/323.mp3" type="audio/mpeg" />
             <itunes:author><![CDATA[This American Life]]></itunes:author>
             <itunes:image href="http://assets.thisamericanlife.co/images/323.jpg" />
-            <itunes:subtitle><![CDATA[Stories of the mysterious hold supers have on their buildings, or their buildings have on them.]]></itunes:subtitle>
-            <itunes:summary><![CDATA[Stories of the mysterious hold supers have on their buildings, or their buildings have on them.]]></itunes:summary>
+            <itunes:subtitle><![CDATA[Stories of the mysterious hold supers have on their buildings, or their buildings have on them.]]></itunes:subtitle>
+            <itunes:summary><![CDATA[Stories of the mysterious hold supers have on their buildings, or their buildings have on them.]]></itunes:summary>
         </item>
         <item>
             <title><![CDATA[322: Shouting Across the Divide]]></title>
@@ -4805,14 +4817,14 @@ town.]]></itunes:summary>
         <item>
             <title><![CDATA[291: Reunited (And It Feels So Good)]]></title>
             <link>https://www.thisamericanlife.org/291/reunited-and-it-feels-so-good</link>
-            <description><![CDATA[Stories about getting back together with your parent, your spouse, your ... Brahman bull.]]></description>
+            <description><![CDATA[Stories about getting back together with your parent, your spouse, your ... Brahman bull.]]></description>
             <pubDate>Fri, 01 Jul 2005 12:00:00 -0400</pubDate>
             <guid isPermaLink="false">291</guid>
             <enclosure url="http://assets.thisamericanlife.co/podcasts/291.mp3" type="audio/mpeg" />
             <itunes:author><![CDATA[This American Life]]></itunes:author>
             <itunes:image href="http://assets.thisamericanlife.co/images/291.jpg" />
-            <itunes:subtitle><![CDATA[Stories about getting back together with your parent, your spouse, your ... Brahman bull.]]></itunes:subtitle>
-            <itunes:summary><![CDATA[Stories about getting back together with your parent, your spouse, your ... Brahman bull.]]></itunes:summary>
+            <itunes:subtitle><![CDATA[Stories about getting back together with your parent, your spouse, your ... Brahman bull.]]></itunes:subtitle>
+            <itunes:summary><![CDATA[Stories about getting back together with your parent, your spouse, your ... Brahman bull.]]></itunes:summary>
         </item>
         <item>
             <title><![CDATA[290: Godless America]]></title>

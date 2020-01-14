@@ -1,12 +1,13 @@
-<?php
+<?php function rssOutput ($localEpisodes) {
+    ob_start();
+
     /**
      * Start XML output
      */
-
     echo '<?xml version="1.0" encoding="UTF-8"?>';
 ?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:anchor="https://anchor.fm/xmlns">
-	<channel>
-		<title>This American Life</title>
+    <channel>
+        <title>This American Life</title>
         <description>This American Life is a weekly public radio show, heard by 2.2 million people on more than 500 stations. Another 2.5 million people download the weekly podcast. It is hosted by Ira Glass, produced in collaboration with Chicago Public Media, delivered to stations by PRX The Public Radio Exchange, and has won all of the major broadcasting awards.</description>
         <language>en</language>
         <copyright>Copyright 1995-<?php echo date("Y"); ?> This American Life</copyright>
@@ -18,8 +19,7 @@
         <itunes:category text="News"> <itunes:category text="Politics" /></itunes:category>
         <itunes:image href="https://files.thisamericanlife.org/sites/all/themes/thislife/img/tal-name-1400x1400.png" />
 <?php
-    $episodes = json_decode( $jsonFile, true );
-    foreach($episodes  as $episode) {
+    foreach($localEpisodes as $episode) {
         $leading = $episode['number'] < 100 ?
             substr(str_pad($episode['number'], 5, '0', STR_PAD_LEFT), -3):
             $episode['number'];
@@ -41,3 +41,14 @@
 ?>
     </channel>
 </rss>
+<?php
+    return ob_get_clean();
+} ?>
+<?php
+    $output = rssOutput($localEpisodes);
+    $myfile = fopen("rss.xml", "w") or die("Unable to open file!");
+    fwrite($myfile, ltrim($output));
+    fclose($myfile);
+
+    echo ltrim($output);
+?>
