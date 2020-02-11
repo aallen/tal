@@ -12,10 +12,34 @@
         <itunes:category text="News"> <itunes:category text="Politics" /></itunes:category>
         <itunes:image href="https://files.thisamericanlife.org/sites/all/themes/thislife/img/tal-name-1400x1400.png" />
         <item>
+            <title><![CDATA[693: Abdi the American]]></title>
+            <link>https://www.thisamericanlife.org/693/abdi-the-american</link>
+            <description><![CDATA[We return to our story about Abdi Nor from 2015, with some news about his life today.]]></description>
+            <pubDate>Fri, 07 Feb 2020 12:00:00 -0500</pubDate>
+            <guid isPermaLink="false">693</guid>
+            <enclosure url="http://assets.thisamericanlife.co/podcasts/693.mp3" type="audio/mpeg" />
+            <itunes:author><![CDATA[This American Life]]></itunes:author>
+            <itunes:image href="http://assets.thisamericanlife.co/images/693.jpg" />
+            <itunes:subtitle><![CDATA[We return to our story about Abdi Nor from 2015, with some news about his life today.]]></itunes:subtitle>
+            <itunes:summary><![CDATA[We return to our story about Abdi Nor from 2015, with some news about his life today.]]></itunes:summary>
+        </item>
+        <item>
+            <title><![CDATA[692: The Show of Delights]]></title>
+            <link>https://www.thisamericanlife.org/692/the-show-of-delights</link>
+            <description><![CDATA[In these dark, combative times, we attempt the most radical counterprogramming we could imagine: a show made up entirely of stories about delight.]]></description>
+            <pubDate>Fri, 31 Jan 2020 12:00:00 -0500</pubDate>
+            <guid isPermaLink="false">692</guid>
+            <enclosure url="http://assets.thisamericanlife.co/podcasts/692.mp3" type="audio/mpeg" />
+            <itunes:author><![CDATA[This American Life]]></itunes:author>
+            <itunes:image href="http://assets.thisamericanlife.co/images/692.jpg" />
+            <itunes:subtitle><![CDATA[In these dark, combative times, we attempt the most radical counterprogramming we could imagine: a show made up entirely of stories about delight.]]></itunes:subtitle>
+            <itunes:summary><![CDATA[In these dark, combative times, we attempt the most radical counterprogramming we could imagine: a show made up entirely of stories about delight.]]></itunes:summary>
+        </item>
+        <item>
             <title><![CDATA[691: Gardens of Branching Paths]]></title>
-            <link>http://feed.thisamericanlife.org/~r/talpodcast/~3/dxGj3-OhmY4/gardens-of-branching-paths</link>
+            <link>https://www.thisamericanlife.org/691/gardens-of-branching-paths</link>
             <description><![CDATA[Stories of other universes that are just like our own, but with one small difference.]]></description>
-            <pubDate>Sun, 12 Jan 2020 18:00:00 -0500</pubDate>
+            <pubDate>Fri, 10 Jan 2020 12:00:00 -0500</pubDate>
             <guid isPermaLink="false">691</guid>
             <enclosure url="http://assets.thisamericanlife.co/podcasts/691.mp3" type="audio/mpeg" />
             <itunes:author><![CDATA[This American Life]]></itunes:author>
